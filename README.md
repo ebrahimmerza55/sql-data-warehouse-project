@@ -1,8 +1,8 @@
 
 # Data Warehouse and Analytics Project
 
-Welcome to the **Data Warehouse and Analytics Project** repository! 🚀  
-This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights.
+Welcome to the **Sales Data Warehouse and Analytics Project** repository! 🚀  
+This project implements a **Sales Data Warehouse** using the **Star Schema** model. It integrates customer, product, and sales data to support business intelligence and analytics.
 
 ---
 ## 📖 Project Overview
@@ -61,8 +61,9 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
 ---
-The Data Model for this project follows Star Schema:
-![data_model]()
+## Data Model
+The database follows the **Star Schema** design, where `fact_sales` serves as the central fact table, linked to `dim_products` and `dim_customers` as dimension tables.
+![data_model](docs/data_model.png)
 
 
 ## 🛡️ License
