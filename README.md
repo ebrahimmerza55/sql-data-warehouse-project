@@ -63,6 +63,7 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 ---
 ## Data Model
 The database follows the **Star Schema** design, where `fact_sales` serves as the central fact table, linked to `dim_products` and `dim_customers` as dimension tables.
+
 ![data_model](docs/data_model.png)
 
 
