@@ -53,7 +53,7 @@ Develop **SQL-based analytics** to deliver **detailed insights** into:
 ## 🏗️ Data Architecture  
 
 This project follows the **Medallion Architecture**, ensuring a structured and scalable data pipeline.  
-![Data Architecture](docs/data_architecture.png)  
+![Data Architecture](docs/data_architechitecture.png)  
 
 1. **Bronze Layer**: Stores raw data as-is from source systems (ERP, CRM). Data is ingested from CSV files into a **SQL Server Database**.  
 2. **Silver Layer**: Processes **data cleansing, standardization, and normalization** to prepare data for analysis.  
